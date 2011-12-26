@@ -1,0 +1,59 @@
+/* RESET STYLES - EricMeyer */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td { margin: 0; padding: 0; border: 0; outline: 0; font-size: 100%; vertical-align: baseline; background: transparent; }
+
+body { line-height: 1; }
+ol, ul { list-style: none; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+/* COMUNES */
+.cleaner { clear: both; }
+.wrapper { width: 550px; margin: 0 auto; position: relative; }
+.dimmer {	background-color:#000; filter:alpha(opacity=75); -moz-opacity: 0.75; opacity: 0.75; height:500px;position:absolute;top:0;width:100%; }
+.noborder { border: none !important; }
+.noborderL { border-left: none !important; }
+.noborderR { border-right: none !important; }
+.noborderT { border-top: none !important; }
+.noborderB { border-bottom: none !important; }
+.nomargin { margin: 0 !important; }
+.nomarginL { margin-left: 0 !important; }
+.nomarginR { margin-right: 0 !important; }
+.nomarginT { margin-top: 0 !important; }
+.nomarginB { margin-bottom: 0 !important; }
+.nopadding { padding: 0 !important; }
+.nopaddingL { padding-left: 0 !important; }
+.nopaddingR { padding-right: 0 !important; }
+.nopaddingT { padding-top: 0 !important; }
+.nopaddingB { padding-bottom: 0 !important; }
+.floaterL { float: left; }
+.floaterR { float: right; }
+.centered { text-align: center; }
+.aright { text-align: right; }
+.aleft { text-align: left; }
+*+html .clearfix, *+html ul, *+html ul li {display:inline-block;}
+* html .clearfix, * html ul, * html ul li {height:1%}
+.clearfix:after, ul:after, li:after {content: ".";display: block;height: 0;clear: both;visibility: hidden;}
+
+/* COMMONS */
+body { font-size: 12px; font-family: 'Georgia', serif; color: #515151; }
+
+/* HEADER */
+#header { background: url('img/bg-header.png') repeat-x; }
+#header .logo { padding: 50px 0 0 0; text-align: center; position: relative; }
+#red { width: 10px; height: 10px; background: #f30; position: absolute; top: 45px; left: 120px;}
+#green { width: 10px; height: 10px; background: #6F3; position: absolute; top: 60px; left: 110px;}
+#blue { width: 10px; height: 10px; background: #438EC9;position: absolute; top: 30px; left: 110px; }
+
+/* ABOUT */
+#about { margin: 50px 0 0 0; }
+#about .wrapper { -moz-border-radius: 10px; -webkit-border-radius: 10px; border-radius: 10px; background: url('img/bg-blurb.png') repeat; border: 1px solid #ccc; box-shadow: 0 0 3px #ccc; position: relative; }
+#about h2 { font-family: 'Enriqueta', serif; font-size: 18px; font-weight: bold; padding: 15px 15px 5px; margin: 0px 0 0 0; }
+#about p { padding: 0 15px 20px; font-size: 13px; font-style: italic; }
+#about .hireus { width: 110px; height: 70px; position: absolute; top: 40px; right: -45px; background: url('img/hiretag.png') no-repeat; }
+#about .hireus a { display: block; width: 110px; height: 70px; }
+
+/* PRODUCTS */
+#products { margin: 40px 0 0; text-align: center; }
+#products h1 { font-size: 20px; color: #999; font-family: 'Enriqueta', serif; margin: 0 0 40px 0; }  
+#products h2 { font-size: 30px; color: #666; font-family: 'Enriqueta', serif;  }
+#products img { margin: 10px 0; }
